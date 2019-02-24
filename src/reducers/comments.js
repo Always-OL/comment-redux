@@ -15,7 +15,7 @@ export default (state, action) => {
         }
         //新增评论
         case ADD_COMMENT: return {
-            comments: [...state.comments, action.comments]
+            comments: [...state.comments, action.comment]
         }
         //删除评论
         case DELETE_COMMENT: return {
